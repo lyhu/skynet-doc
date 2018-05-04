@@ -1,4 +1,4 @@
-# Skynet Boot参考指南
+# Skynet参考指南
 
 Skynet Reference Guide -《Skynet 参考指南》
 
