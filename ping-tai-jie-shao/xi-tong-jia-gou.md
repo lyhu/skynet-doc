@@ -1,23 +1,25 @@
 # 系统架构
 
-## Getting Super Powers
+### 逻辑架构
 
-Becoming a super hero is a fairly straight forward process:
+![](../.gitbook/assets/001.png)
 
-```
-$ give me super-powers
-```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
 
-Once you're strong enough, save the world:
+### 物理架构
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+![](../.gitbook/assets/002.png)
+
+* AntServer：
+* AntWorker：
+
+### 启动流程
+
+![](../.gitbook/assets/003.png)
+
+
+
+
 
 
 
