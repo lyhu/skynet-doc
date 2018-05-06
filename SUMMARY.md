@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Skynet参考指南](README.md)
-* 1. 平台介绍
+* [1. 平台介绍](1.chapter/README.md)
   * [1.1 特性](1.chapter/untitled.md)
   * [1.2 系统架构](1.chapter/xi-tong-jia-gou.md)
   * 1.3 系统依赖
