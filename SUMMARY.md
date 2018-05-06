@@ -34,7 +34,7 @@
     * 3.5.2 WebSocket服务
     * 3.5.3 消息队列服务
     * 3.5.4 流式计算服务
-  * [单元测试](3.chapter/dan-yuan-ce-shi.md)
+  * [3.6 单元测试](3.chapter/3.6-dan-yuan-ce-shi.md)
 * 平台部署
   * 单机模式
   * 集群模式
