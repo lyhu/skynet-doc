@@ -5,7 +5,7 @@
   * [1.1 特性](1.chapter/untitled.md)
   * [1.2 系统架构](1.chapter/xi-tong-jia-gou.md)
   * [1.3 系统依赖](1.chapter/xi-tong-yi-lai.md)
-* 2. 快速入门
+* [2. 快速入门](2.chapter/README.md)
   * 2.1 快速部署
   * [2.2 插件开发](2.chapter/cha-jian-kai-fa.md)
   * [2.3 本地调试](2.chapter/ben-di-tiao-shi.md)
