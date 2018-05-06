@@ -1,0 +1,66 @@
+---
+description: 单元测试示例
+---
+
+# 单元测试
+
+示例代码如下（业务应用系统根据此模板进行修改）
+
+```java
+package com.iflytek.xxx.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import skynet.cloud.service.CommandService;
+import skynet.cloud.test.AntWorkerTestApp;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = AntWorkerTestApp.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+public class TestApp {
+
+	static {
+		// Action服务名称
+		System.setProperty("skynet.current.action", "ant-demo-v10@ant");
+		System.setProperty("skynet.current.ip", "127.0.0.1");
+		System.setProperty("server.port", "2201");
+		// 必须设置 true
+		System.setProperty("skynet.test.enabled", "true");
+	}
+
+	// 根据业务测试需求进行注解
+	@Autowired
+	private CommandService commandService;
+
+	@Autowired
+	private TestRestTemplate testRestTemplate;
+
+	/**
+	 * 具体的业务测试
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	public void get() throws Exception {
+		Map<String, String> multiValueMap = new HashMap<String, String>();
+		multiValueMap.put("username", "lake");// 传值，但要在url上配置相应的参数
+		String result = testRestTemplate.getForObject("/env", String.class, multiValueMap);
+		System.out.println(result);
+		String result_0 = testRestTemplate.getForObject("/skynet/route/_help", String.class, multiValueMap);
+		System.out.println(result_0);
+	}
+
+	@Test
+	public void getCommdServiceName() {
+		System.out.println(commandService.getSvcName());
+	}
+}
+```
+
