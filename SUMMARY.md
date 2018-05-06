@@ -1,15 +1,15 @@
 # Table of contents
 
 * [Skynet参考指南](README.md)
-* 平台介绍
-  * [特性](ping-tai-jie-shao/untitled.md)
-  * [系统架构](ping-tai-jie-shao/xi-tong-jia-gou.md)
-  * 系统依赖
-* 快速入门
-  * 快速部署
-  * 插件开发
-  * [本地调试](kuai-su-ru-men/ben-di-tiao-shi.md)
-  * 快速发布
+* 1. 平台介绍
+  * [1.1 特性](ping-tai-jie-shao/untitled.md)
+  * [1.2 系统架构](ping-tai-jie-shao/xi-tong-jia-gou.md)
+  * 1.3 系统依赖
+* 2. 快速入门
+  * 2.1 快速部署
+  * [2.2 插件开发](kuai-su-ru-men/cha-jian-kai-fa.md)
+  * [2.3 本地调试](kuai-su-ru-men/ben-di-tiao-shi.md)
+  * 2.4 快速发布
 * 平台开发
   * 规范约定
   * 基础类库
