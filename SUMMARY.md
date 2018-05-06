@@ -28,7 +28,9 @@
     * 3.3.6 定时任务
     * 3.3.7 菜单集成
     * 3.3.8 性能采集
-  * 3.4 SpringBoot集成
+  * [3.4 SpringBoot集成](3.chapter/springboot-ji-cheng/README.md)
+    * 3.4.1 Metrics度量指标
+    * 3.4.2 多级Properties配置
   * [3.5 服务开发](3.chapter/3.5-fu-wu-kai-fa/README.md)
     * 3.5.1 Web服务开发
     * 3.5.2 WebSocket服务
