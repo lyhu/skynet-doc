@@ -10,8 +10,8 @@
   * [2.2 插件开发](kuai-su-ru-men/cha-jian-kai-fa.md)
   * [2.3 本地调试](kuai-su-ru-men/ben-di-tiao-shi.md)
   * 2.4 快速发布
-* 平台开发
-  * 规范约定
+* 3. 平台开发
+  * 3.1 规范约定
   * 基础类库
     * 资源池化
     * 内存异步队列
