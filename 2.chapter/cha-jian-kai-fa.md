@@ -14,7 +14,7 @@ description: 根据skynet规范开发skynet插件
 
 ## Skynet起步依赖
 
-
+目前skynet所依赖的包全部放在Maven仓库上面，配置仓库地址，则可以获得skynet全部依赖。
 
 > pom.xml maven 依赖
 
