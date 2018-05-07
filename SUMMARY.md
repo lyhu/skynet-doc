@@ -27,7 +27,7 @@
     * [3.3.5 流式计算](3.chapter/3.3-ji-chu-zu-jian/3.3.5-liu-shi-ji-suan.md)
     * [3.3.6 定时任务](3.chapter/3.3-ji-chu-zu-jian/3.3.6-ding-shi-ren-wu.md)
     * [3.3.7 菜单集成](3.chapter/3.3-ji-chu-zu-jian/3.3.7-cai-dan-ji-cheng.md)
-    * 3.3.8 性能采集
+    * [3.3.8 性能采集](3.chapter/3.3-ji-chu-zu-jian/3.3.8-xing-neng-cai-ji.md)
   * [3.4 SpringBoot集成](3.chapter/3.4-springboot-ji-cheng/README.md)
     * 3.4.1 Metrics度量指标
     * 3.4.2 多级Properties配置
