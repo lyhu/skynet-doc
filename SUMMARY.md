@@ -11,7 +11,7 @@
   * [2.3 本地调试](2.chapter/ben-di-tiao-shi.md)
   * 2.4 快速发布
 * [3. 平台开发](3.chapter/README.md)
-  * 3.1 规范约定
+  * [3.1 规范约定](3.chapter/gui-fan-yue-ding.md)
   * 3.2 基础类库
     * 3.2.1 资源池化
     * 3.2.2 内存异步队列
