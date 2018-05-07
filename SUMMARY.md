@@ -22,10 +22,10 @@
   * 3.3 基础组件
     * [3.3.1 配置管理](3.chapter/ji-chu-zu-jian/3.3.1-pei-zhi-guan-li.md)
     * [3.3.2 日志管理](3.chapter/ji-chu-zu-jian/3.3.2-ri-zhi-guan-li.md)
-    * 3.3.3 消息组件
-    * 3.3.4 脉搏服务
-    * 3.3.5 流式计算
-    * 3.3.6 定时任务
+    * [3.3.3 消息组件](3.chapter/ji-chu-zu-jian/3.3.3-xiao-xi-zu-jian.md)
+    * [3.3.4 脉搏服务](3.chapter/ji-chu-zu-jian/3.3.4-mai-bo-fu-wu.md)
+    * [3.3.5 流式计算](3.chapter/ji-chu-zu-jian/3.3.5-liu-shi-ji-suan.md)
+    * [3.3.6 定时任务](3.chapter/ji-chu-zu-jian/3.3.6-ding-shi-ren-wu.md)
     * [3.3.7 菜单集成](3.chapter/ji-chu-zu-jian/3.3.7-cai-dan-ji-cheng.md)
     * 3.3.8 性能采集
   * [3.4 SpringBoot集成](3.chapter/3.4springboot-ji-cheng/README.md)
