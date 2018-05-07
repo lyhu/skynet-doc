@@ -18,7 +18,7 @@
     * 3.2.3 并发类库
     * 3.2.4 WebSocket配置
     * 3.2.5 服务接口可视化
-    * 3.2.6 Shell组件
+    * [3.2.6 Shell组件](3.chapter/3.2-ji-chu-lei-ku/3.2.6shell-zu-jian.md)
   * 3.3 基础组件
     * [3.3.1 配置管理](3.chapter/3.3-ji-chu-zu-jian/3.3.1-pei-zhi-guan-li.md)
     * [3.3.2 日志管理](3.chapter/3.3-ji-chu-zu-jian/3.3.2-ri-zhi-guan-li.md)
