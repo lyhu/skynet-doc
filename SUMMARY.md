@@ -16,7 +16,7 @@
     * 3.2.1 资源池化
     * 3.2.2 内存异步队列
     * 3.2.3 并发类库
-    * 3.2.4 WebSocket配置
+    * [3.2.4 手动信号量](3.chapter/3.2-ji-chu-lei-ku/3.2.4-shou-dong-xin-hao-liang.md)
     * 3.2.5 服务接口可视化
     * [3.2.6 Shell组件](3.chapter/3.2-ji-chu-lei-ku/3.2.6shell-zu-jian.md)
   * 3.3 基础组件
