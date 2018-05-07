@@ -14,6 +14,53 @@ description: 根据skynet规范开发skynet插件
 
 ## Skynet起步依赖
 
+
+
+> pom.xml maven 依赖
+
+```markup
+...
+
+<parent>
+    <groupId>com.iflytek.skynet</groupId>
+    <artifactId>skynet-cloud-starter-parent</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
+</parent>
+
+<properties>
+    <mvn-repo>http://pl.maven.iflytek.com/nexus</mvn-repo>
+</properties>
+
+<repositories>
+    <repository>
+        <id>repo1-cache</id>
+        <name>repo1-cache</name>
+        <url>${mvn-repo}/content/groups/public</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+    <repository>
+        <id>repo2-cache</id>
+        <name>repo2-cache</name>
+        <url>${mvn-repo}/content/repositories/skynet-releases</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+    <repository>
+        <id>repo3-cache</id>
+        <name>repo3-cache</name>
+        <url>${mvn-repo}/content/repositories/skynet-snapshots</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+
+..
+```
+
 ## 实现插件接口
 
 以Web服务为例
