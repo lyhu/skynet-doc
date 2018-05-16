@@ -41,6 +41,8 @@
   * 4.1 单机方案
   * 4.2 集群方案
 * 5. 平台运维
+  * [5.1 基础服务](5.chapter/5.1-ji-chu-fu-wu.md)
+  * [5.2 ELK集成](5.chapter/5.2-elk-ji-cheng.md)
 * 6. 附录
   * [6.1 源码结构说明](6.chapter/6.1-yuan-ma-jie-gou-shuo-ming.md)
 
