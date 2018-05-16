@@ -4,7 +4,7 @@
 
 * **Spring-Boot** 1.5.9
 * **Spring-Cloud** Edgware.SR3
-* **Zookeeper **3.4.5
+* **Zookeeper** 3.4.5
 
 ## 运行环境
 
