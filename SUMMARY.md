@@ -42,5 +42,4 @@
   * 4.2 集群方案
 * 5. 平台运维
 * 6. 附录
-  * [6.1 源码结构说明](6.chapter/6.1-yuan-ma-jie-gou-shuo-ming.md)
 
