@@ -34,7 +34,7 @@
   * [3.5 服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/README.md)
     * [3.5.1 Web服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.1-web-fu-wu-kai-fa.md)
     * 3.5.2 WebSocket服务
-    * 3.5.3 消息队列服务
+    * [3.5.3 消息队列服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.3-xiao-xi-dui-lie-fu-wu.md)
     * [3.5.4 流式计算服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.4-liu-shi-ji-suan-fu-wu.md)
   * [3.6 单元测试](3.-ping-tai-kai-fa/3.6-dan-yuan-ce-shi.md)
 
