@@ -37,7 +37,7 @@
     * [3.5.3 消息队列服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.3-xiao-xi-dui-lie-fu-wu.md)
     * [3.5.4 流式计算服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.4-liu-shi-ji-suan-fu-wu.md)
   * [3.6 单元测试](3.-ping-tai-kai-fa/3.6-dan-yuan-ce-shi.md)
-* 4. 平台部署
+* [4. 平台部署]
   * [4.1 单机方案](4.-ping-tai-bu-shu/4.1-dan-ji-fang-an.md)
   * [4.2 集群方案](4.-ping-tai-bu-shu/4.2-ji-qun-fang-an.md)
 * [5. 平台运维](5.-ping-tai-yun-wei/README.md)
