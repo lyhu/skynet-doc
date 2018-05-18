@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [Skynet参考指南](README.md)
 * [1. 平台介绍](1.-ping-tai-jie-shao/README.md)
@@ -10,7 +10,7 @@
   * [2.2 插件开发](2.-kuai-su-ru-men/2.2-cha-jian-kai-fa.md)
   * [2.3 本地调试](2.-kuai-su-ru-men/2.3-ben-di-tiao-shi.md)
   * 2.4 快速发布
-* [平台开发](3.-ping-tai-kai-fa/README.md)
+* [3. 平台开发](3.-ping-tai-kai-fa/README.md)
   * [3.1 规范约定](3.-ping-tai-kai-fa/3.1-gui-fan-yue-ding.md)
   * 3.2 基础类库
     * 3.2.1 资源池化
@@ -41,7 +41,7 @@
   * [4.1 单机方案](4.-ping-tai-bu-shu/4.1-dan-ji-fang-an.md)
   * [4.2 集群方案](4.-ping-tai-bu-shu/4.2-ji-qun-fang-an.md)
 * [5. 平台运维](5.-ping-tai-yun-wei/README.md)
-  * 5.1 基础服务
+  * [5.1 基础服务](5.-ping-tai-yun-wei/51-ji-chu-fu-wu.md)
   * [5.2 ELK集成](5.-ping-tai-yun-wei/5.2-elk-ji-cheng.md)
 * [6.  附录](6.-fu-lu/README.md)
   * [6.1 源码结构说明](6.-fu-lu/6.1-yuan-ma-jie-gou-shuo-ming.md)
