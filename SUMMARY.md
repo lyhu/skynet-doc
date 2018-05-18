@@ -10,7 +10,7 @@
   * [2.2 插件开发](2.-kuai-su-ru-men/2.2-cha-jian-kai-fa.md)
   * [2.3 本地调试](2.-kuai-su-ru-men/2.3-ben-di-tiao-shi.md)
   * 2.4 快速发布
-* [3. 平台开发](3.-ping-tai-kai-fa/README.md)
+* [平台开发](3.-ping-tai-kai-fa/README.md)
   * [3.1 规范约定](3.-ping-tai-kai-fa/3.1-gui-fan-yue-ding.md)
   * 3.2 基础类库
     * 3.2.1 资源池化
