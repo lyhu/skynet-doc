@@ -37,4 +37,9 @@
     * [3.5.3 消息队列服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.3-xiao-xi-dui-lie-fu-wu.md)
     * [3.5.4 流式计算服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.4-liu-shi-ji-suan-fu-wu.md)
   * [3.6 单元测试](3.-ping-tai-kai-fa/3.6-dan-yuan-ce-shi.md)
+* 4. 平台部署
+* [5. 平台运维](untitled.md)
+* [6.  附录](6.-fu-lu/README.md)
+  * [6.1 源码结构说明](6.-fu-lu/6.1-yuan-ma-jie-gou-shuo-ming.md)
+  * [6.2 示例下载与说明](6.-fu-lu/6.2-shi-li-xia-zai-yu-shuo-ming.md)
 
