@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Skynet参考指南](README.md)
 * [1. 平台介绍](1.-ping-tai-jie-shao/README.md)
@@ -29,7 +29,7 @@
     * [3.3.7 菜单集成](3.-ping-tai-kai-fa/3.3-ji-chu-zu-jian/3.3.7-cai-dan-ji-cheng.md)
     * [3.3.8 性能采集](3.-ping-tai-kai-fa/3.3-ji-chu-zu-jian/3.3.8-xing-neng-cai-ji.md)
   * [SpringBoot集成](3.-ping-tai-kai-fa/springboot-ji-cheng/README.md)
-    * [Metrics度量指标](3.-ping-tai-kai-fa/springboot-ji-cheng/3.4.1-metrics-du-liang-zhi-biao.md)
+    * [Metrics度量指标](3.-ping-tai-kai-fa/springboot-ji-cheng/metrics-du-liang-zhi-biao.md)
     * 3.4.2 多级Properties配置
   * [3.5 服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/README.md)
     * [3.5.1 Web服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.1-web-fu-wu-kai-fa.md)
@@ -41,7 +41,7 @@
   * [4.1 单机方案](4.-ping-tai-bu-shu/4.1-dan-ji-fang-an.md)
   * [4.2 集群方案](4.-ping-tai-bu-shu/4.2-ji-qun-fang-an.md)
 * [5. 平台运维](5.-ping-tai-yun-wei/README.md)
-  * [5.1 基础服务](5.-ping-tai-yun-wei/51-ji-chu-fu-wu.md)
+  * [5.1 基础服务](5.-ping-tai-yun-wei/5.1-ji-chu-fu-wu.md)
   * [5.2 ELK集成](5.-ping-tai-yun-wei/5.2-elk-ji-cheng.md)
 * [6.  附录](6.-fu-lu/README.md)
   * [6.1 源码结构说明](6.-fu-lu/6.1-yuan-ma-jie-gou-shuo-ming.md)
