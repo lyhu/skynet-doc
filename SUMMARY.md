@@ -40,9 +40,10 @@
 * 4. 平台部署
   * [4.1 单机方案](4.-ping-tai-bu-shu/4.1-dan-ji-fang-an.md)
   * [4.2 集群方案](4.-ping-tai-bu-shu/4.2-ji-qun-fang-an.md)
-* [5. 平台运维](untitled/README.md)
+* [5. 平台运维](5.-ping-tai-yun-wei/README.md)
   * 5.1 基础服务
-  * [5.2 ELK集成](untitled/5.2-elk-ji-cheng.md)
+  * [5.2 ELK集成](5.-ping-tai-yun-wei/5.2-elk-ji-cheng.md)
+  * 5.2 平台运维
 * [6.  附录](6.-fu-lu/README.md)
   * [6.1 源码结构说明](6.-fu-lu/6.1-yuan-ma-jie-gou-shuo-ming.md)
   * [6.2 示例下载与说明](6.-fu-lu/6.2-shi-li-xia-zai-yu-shuo-ming.md)
