@@ -46,4 +46,5 @@
 * [6.  附录](6.-fu-lu/README.md)
   * [6.1 源码结构说明](6.-fu-lu/6.1-yuan-ma-jie-gou-shuo-ming.md)
   * [6.2 示例下载与说明](6.-fu-lu/6.2-shi-li-xia-zai-yu-shuo-ming.md)
+  * [6.3 控制台使用手册](6.-fu-lu/6.3-kong-zhi-tai-shi-yong-shou-ce.md)
 
