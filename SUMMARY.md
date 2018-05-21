@@ -30,7 +30,7 @@
     * [3.3.8 性能采集](3.-ping-tai-kai-fa/3.3-ji-chu-zu-jian/3.3.8-xing-neng-cai-ji.md)
   * [SpringBoot集成](3.-ping-tai-kai-fa/springboot-ji-cheng/README.md)
     * [Metrics度量指标](3.-ping-tai-kai-fa/springboot-ji-cheng/metrics-du-liang-zhi-biao.md)
-    * 3.4.2 多级Properties配置
+    * [3.4.2 多级Properties配置](3.-ping-tai-kai-fa/springboot-ji-cheng/3.4.2-duo-ji-properties-pei-zhi.md)
   * [3.5 服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/README.md)
     * [3.5.1 Web服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.1-web-fu-wu-kai-fa.md)
     * 3.5.2 WebSocket服务
