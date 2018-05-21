@@ -13,7 +13,7 @@
 * [3. 平台开发](3.-ping-tai-kai-fa/README.md)
   * [3.1 规范约定](3.-ping-tai-kai-fa/3.1-gui-fan-yue-ding.md)
   * 3.2 基础类库
-    * 3.2.1 资源池化
+    * [3.2.1 资源池化](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.1-zi-yuan-chi-hua.md)
     * 3.2.2 内存异步队列
     * 3.2.3 并发类库
     * [3.2.4 手动信号量](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.4-shou-dong-xin-hao-liang.md)
