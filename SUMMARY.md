@@ -15,7 +15,7 @@
   * 3.2 基础类库
     * [3.2.1 资源池化](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.1-zi-yuan-chi-hua.md)
     * [3.2.2 内存异步管道](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.2-nei-cun-yi-bu-dui-lie.md)
-    * 3.2.3 并发类库
+    * [3.2.3 并发类库](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.3-bing-fa-lei-ku.md)
     * [3.2.4 手动信号量](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.4-shou-dong-xin-hao-liang.md)
     * 3.2.5 服务接口可视化
     * [3.2.6 Shell组件](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.6-shell-zu-jian.md)
