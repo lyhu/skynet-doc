@@ -31,6 +31,8 @@
   * [3.4 SpringBoot集成](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/README.md)
     * [3.4.1 Metrics度量指标](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.1-metrics-du-liang-zhi-biao.md)
     * [3.4.2 多级Properties配置](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.2-duo-ji-properties-pei-zhi.md)
+    * [3.4.3 Swagger2集成](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.3-swagger2-ji-cheng.md)
+    * [3.4.4 JsonDoc集成](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.4-jsondoc-ji-cheng.md)
   * [3.5 服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/README.md)
     * [3.5.1 Web服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.1-web-fu-wu-kai-fa.md)
     * [3.5.2 WebSocket服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.2-websocket-fu-wu.md)
