@@ -1,13 +1,8 @@
 # 5. 平台运维
 
-## Getting Super Powers
+平台运维主要指的是平台的部署、监控等常用功能
 
-Becoming a super hero is a fairly straight forward process:
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
 
 
 
