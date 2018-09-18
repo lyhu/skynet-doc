@@ -8,7 +8,7 @@
 4. 编译打包
 5. 部署测试
 
-## Skynet起步依赖
+## 1. Skynet起步依赖
 
 目前skynet所依赖的包全部放在Maven仓库上面，配置仓库地址，则可以获得skynet全部依赖。
 
@@ -53,7 +53,7 @@
 </repositories>
 ```
 
-## 实现插件接口
+## 2. 实现插件接口
 
 以Web服务为例，需要实现RestSvcContext接口，下面是接口定义
 
@@ -108,5 +108,114 @@ public class RestSvc implements RestSvcContext {
 }
 ```
 
-## Action配置
+## 3. Action配置
+
+skynet服务开发完成后，需要对配置zk节点，下面是zk节点配置示例
+
+```text
+/skynet/plugin/sample/action/rest-app-v10=_atitle=[Sample]Web应用
+/skynet/plugin/sample/action/rest-app-v10=_desc=Cloud-Sample站点服务
+/skynet/plugin/sample/action/rest-app-v10=_param={\n            "name": "skynet.rest.host",\n            "context": {\n                "svc": "sample.rest.app"\n            }\n        }/skynet/plugin/sample/service=_desc=skynet基础服务插件_服务定义
+/skynet/plugin/sample/service=skynet.rest.host=RestWeb宿主服务
+/skynet/plugin/sample/setting=_desc=skynet基础服务插件_自定义配置
+/skynet/plugin/sample/setting=_mq_config={\n    "mq_type": "amq",\n    "mq_uri": "{$ref@setting:mq_uri}",\n    "inq": "amq_starter_message",\n    "concurrency": 1\n}
+/skynet/plugin/sample/setting=mq_uri=tcp://192.168.84.190:61616
+/skynet/plugin/sample=_desc=Skynet二次开发示例，包括一些开发测试服务。
+/skynet/plugin/sample=_name=Skynet示例
+```
+
+## 4.编译打包
+
+服务开发完成后一般用maven的assembly插件，将工程打成相应的zip或者jar包，下面是maven使用assembly设置，在pom文件里引入如下内容
+
+```markup
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>${maven.deploy.skip}</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+```
+
+下面是assembly配置示例
+
+```markup
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/plugins/mavenassembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+    <id>RELEASE</id>
+    <formats>
+        <format>dir</format>
+        <format>zip</format>
+    </formats>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>false</useProjectArtifact>
+            <outputDirectory>./skynet/lib</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <directory>misc</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>  
+        
+        <fileSet>
+            <directory>../skynet-boot-project/skynet-cloud-xservice/target</directory>
+            <outputDirectory>./skynet/plugin/ant/lib</outputDirectory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <excludes>
+                <exclude>*javadoc.jar</exclude>
+                <exclude>*sources.jar</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>../skynet-boot-project/skynet-boot-jagent/target</directory>
+            <outputDirectory>./skynet/lib/jagent</outputDirectory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <excludes>
+                <exclude>*javadoc.jar</exclude>
+                <exclude>*sources.jar</exclude>
+            </excludes>
+        </fileSet> 
+                
+    </fileSets>
+</assembly>
+
+```
+
+## 5. 部署测试
+
+打包完成后，将打成的包放在/iflytek/server/skynet/plugin下面，然后在skynet控制台页面，分配该服务，再对此服务进行测试即可。
 
