@@ -1,11 +1,11 @@
-# Table of contents
+# Summary
 
 * [Skynet参考指南](README.md)
 * [1. 平台介绍](1.-ping-tai-jie-shao/README.md)
   * [1.1 特性](1.-ping-tai-jie-shao/1.1-te-xing.md)
   * [1.2 系统架构](1.-ping-tai-jie-shao/1.2-xi-tong-jia-gou.md)
   * [1.3 系统依赖](1.-ping-tai-jie-shao/1.3-xi-tong-yi-lai.md)
-* [2.服务托管](2.-fu-wu-tuo-guan/README.md)
+* [2. 服务托管](2.-fu-wu-tuo-guan/README.md)
   * [2.1 配置管理](2.-fu-wu-tuo-guan/2.1-pei-zhi-guan-li.md)
   * [2.2 服务定义](2.-fu-wu-tuo-guan/2.2-fu-wu-ding-yi.md)
   * [2.3 服务分配](2.-fu-wu-tuo-guan/2.3-fu-wu-fen-pei.md)
