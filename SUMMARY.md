@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Skynet参考指南](README.md)
 * [1. 平台介绍](1.-ping-tai-jie-shao/README.md)
@@ -14,9 +14,9 @@
   * [2.6 服务发现](2.-fu-wu-tuo-guan/2.6-fu-wu-fa-xian.md)
   * [2.7 服务网关](2.-fu-wu-tuo-guan/2.7-fu-wu-wang-guan.md)
 * [3. 服务开发](3.-ping-tai-kai-fa/README.md)
-  * [3.1. 快速入门](3.-ping-tai-kai-fa/2.-kuai-su-ru-men/README.md)
-    * [3.1.1 服务开发](3.-ping-tai-kai-fa/2.-kuai-su-ru-men/2.2-cha-jian-kai-fa.md)
-    * [3.1.2 本地调试](3.-ping-tai-kai-fa/2.-kuai-su-ru-men/2.3-ben-di-tiao-shi.md)
+  * [3.1. 快速入门](3.-ping-tai-kai-fa/3.1.-kuai-su-ru-men/README.md)
+    * [3.1.1 服务开发](3.-ping-tai-kai-fa/3.1.-kuai-su-ru-men/3.1.1-fu-wu-kai-fa.md)
+    * [3.1.2 本地调试](3.-ping-tai-kai-fa/3.1.-kuai-su-ru-men/3.1.2-ben-di-tiao-shi.md)
   * [3.2 基础类库](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/README.md)
     * [3.2.1 资源池化](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.1-zi-yuan-chi-hua.md)
     * [3.2.2 内存异步管道](3.-ping-tai-kai-fa/3.2-ji-chu-lei-ku/3.2.2-nei-cun-yi-bu-guan-dao.md)
