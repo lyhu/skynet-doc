@@ -13,6 +13,8 @@
   * [2.5 服务守护](2.-fu-wu-tuo-guan/2.5-fu-wu-shou-hu.md)
   * [2.6 服务发现](2.-fu-wu-tuo-guan/2.6-fu-wu-fa-xian.md)
   * [2.7 服务网关](2.-fu-wu-tuo-guan/2.7-fu-wu-wang-guan.md)
+  * [2.8 日志采集](2.-fu-wu-tuo-guan/2.8-ri-zhi-cai-ji.md)
+  * [2.9 状态查看](2.-fu-wu-tuo-guan/2.9-zhuang-tai-cha-kan.md)
 * [3. 服务开发](3.-ping-tai-kai-fa/README.md)
   * [3.1. 快速入门](3.-ping-tai-kai-fa/3.1.-kuai-su-ru-men/README.md)
     * [3.1.1 服务开发](3.-ping-tai-kai-fa/3.1.-kuai-su-ru-men/3.1.1-fu-wu-kai-fa.md)
