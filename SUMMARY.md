@@ -35,6 +35,7 @@
     * [3.4.1 Metrics度量指标](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.1-metrics-du-liang-zhi-biao.md)
     * [3.4.2 Swagger2集成](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.3-swagger2-ji-cheng.md)
     * [3.4.3 JsonDoc集成](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.4-jsondoc-ji-cheng.md)
+    * [3.4.4 条件注解](3.-ping-tai-kai-fa/3.4-springboot-ji-cheng/3.4.4-tiao-jian-zhu-jie.md)
   * [3.5 服务开发](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/README.md)
     * [3.5.1 WebSocket服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.2-websocket-fu-wu.md)
     * [3.5.2 消息队列服务](3.-ping-tai-kai-fa/3.5-fu-wu-kai-fa/3.5.3-xiao-xi-dui-lie-fu-wu.md)
