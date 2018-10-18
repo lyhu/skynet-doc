@@ -1,12 +1,8 @@
-# 4.2 集群方案
+# 5.  附录
 
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
 
 Once you're strong enough, save the world:
 
